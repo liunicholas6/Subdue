@@ -8,7 +8,7 @@ Parameters:
   Limit: 4
   Max Size: 3
   Min Size: 1
-  Num Best: 3
+  Num Best: 1
   Overlap: none
   Prune: False
   Value Based: False
@@ -21,30 +21,7 @@ Graph: 6 vertices, 6 edges
 4 patterns left
 1 patterns left
 
-Best 3 patterns:
-
-  Pattern (value=0.5, instances=2):
-    Graph:
-      vertex "1": timestamp=1, label=v1
-      vertex "2": timestamp=1, label=v1
-      vertex "3": timestamp=1, label=v1
-      edge "1" (1->2): timestamp=1, label=A
-      edge "2" (3->1): timestamp=1, label=A
-      edge "3" (2->3): timestamp=1, label=A
-    Instance 1:
-      vertex "1": timestamp=1, label=v1
-      vertex "2": timestamp=1, label=v1
-      vertex "3": timestamp=1, label=v1
-      edge "1" (1->2): timestamp=1, label=A
-      edge "3" (3->1): timestamp=1, label=A
-      edge "2" (2->3): timestamp=1, label=A
-    Instance 2:
-      vertex "4": timestamp=1, label=v1
-      vertex "5": timestamp=1, label=v1
-      vertex "6": timestamp=1, label=v1
-      edge "4" (4->5): timestamp=1, label=A
-      edge "5" (5->6): timestamp=1, label=A
-      edge "6" (4->6): timestamp=1, label=A
+Best 1 patterns:
 
   Pattern (value=0.3333333333333333, instances=2):
     Graph:
@@ -66,19 +43,5 @@ Best 3 patterns:
       edge "4" (4->5): timestamp=1, label=A
       edge "5" (5->6): timestamp=1, label=A
 
-  Pattern (value=0.16666666666666666, instances=2):
-    Graph:
-      vertex "1": timestamp=1, label=v1
-      vertex "2": timestamp=1, label=v1
-      edge "1" (1->2): timestamp=1, label=A
-    Instance 1:
-      vertex "1": timestamp=1, label=v1
-      vertex "2": timestamp=1, label=v1
-      edge "1" (1->2): timestamp=1, label=A
-    Instance 2:
-      vertex "4": timestamp=1, label=v1
-      vertex "5": timestamp=1, label=v1
-      edge "4" (4->5): timestamp=1, label=A
-
-SUBDUE done. Elapsed time = 0.0005180835723876953 seconds
+SUBDUE done. Elapsed time = 0.0006132125854492188 seconds
 
