@@ -1,0 +1,84 @@
+SUBDUE v1.4 (python)
+
+Parameters:
+  Input File Name: testing/hexes.json
+  Output File Name: testing/hexes
+  Beam Width: 4
+  Iterations: 1
+  Limit: 100
+  Max Size: 8
+  Min Size: 8
+  Num Best: 3
+  Overlap: none
+  Prune: False
+  Value Based: False
+  Write Compressed: False
+  Write Pattern: False
+  Write Instances: False
+  Temporal: False
+
+Graph: 14 vertices, 16 edges
+100 patterns left
+94 patterns left
+90 patterns left
+86 patterns left
+82 patterns left
+78 patterns left
+75 patterns left
+74 patterns left
+No more patterns to consider
+
+Best 1 patterns:
+
+  Pattern (value=0.5, instances=2):
+    Graph:
+      vertex "1": timestamp=1, label=v2
+      vertex "2": timestamp=1, label=v1
+      vertex "3": timestamp=1, label=v1
+      vertex "4": timestamp=1, label=v3
+      vertex "5": timestamp=1, label=v1
+      vertex "6": timestamp=1, label=v1
+      vertex "7": timestamp=1, label=v1
+      edge "1" (1--2): timestamp=1, label=A
+      edge "2" (3--1): timestamp=1, label=A
+      edge "3" (1--4): timestamp=1, label=A
+      edge "4" (2--5): timestamp=1, label=A
+      edge "5" (6--3): timestamp=1, label=A
+      edge "6" (5--7): timestamp=1, label=A
+      edge "7" (7--6): timestamp=1, label=A
+      edge "8" (4--5): timestamp=1, label=A
+    Instance 1:
+      vertex "1": timestamp=1, label=v2
+      vertex "2": timestamp=1, label=v1
+      vertex "6": timestamp=1, label=v1
+      vertex "7": timestamp=1, label=v3
+      vertex "3": timestamp=1, label=v1
+      vertex "5": timestamp=1, label=v1
+      vertex "4": timestamp=1, label=v1
+      edge "1" (1--2): timestamp=1, label=A
+      edge "6" (6--1): timestamp=1, label=A
+      edge "7" (1--7): timestamp=1, label=A
+      edge "2" (2--3): timestamp=1, label=A
+      edge "5" (5--6): timestamp=1, label=A
+      edge "3" (3--4): timestamp=1, label=A
+      edge "4" (4--5): timestamp=1, label=A
+      edge "8" (7--3): timestamp=1, label=A
+    Instance 2:
+      vertex "8": timestamp=1, label=v2
+      vertex "9": timestamp=1, label=v1
+      vertex "13": timestamp=1, label=v1
+      vertex "14": timestamp=1, label=v3
+      vertex "10": timestamp=1, label=v1
+      vertex "12": timestamp=1, label=v1
+      vertex "11": timestamp=1, label=v1
+      edge "9" (8--9): timestamp=1, label=A
+      edge "14" (13--8): timestamp=1, label=A
+      edge "15" (8--14): timestamp=1, label=A
+      edge "10" (9--10): timestamp=1, label=A
+      edge "13" (12--13): timestamp=1, label=A
+      edge "11" (10--11): timestamp=1, label=A
+      edge "12" (11--12): timestamp=1, label=A
+      edge "16" (14--11): timestamp=1, label=A
+
+SUBDUE done. Elapsed time = 0.006742715835571289 seconds
+

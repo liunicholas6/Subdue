@@ -1,0 +1,178 @@
+[
+    {"vertex": {
+       "id": "1",
+       "attributes": {"label": "v2"},
+       "timestamp": "1"}},
+    {"vertex": {
+       "id": "2",
+       "attributes": {"label": "v1"},
+       "timestamp": "1"}},
+    {"vertex": {
+       "id": "3",
+       "attributes": {"label": "v1"},
+       "timestamp": "1"}},
+    {"vertex": {
+        "id": "4",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "5",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "6",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "7",
+        "attributes": {"label": "v3"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "8",
+        "attributes": {"label": "v2"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "9",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "10",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "11",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "12",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "13",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "14",
+        "attributes": {"label": "v3"},
+        "timestamp": "1"}},
+    {"edge": {
+       "id": "1",
+       "source": "1",
+       "target": "2",
+       "attributes": {"label": "A"},
+       "directed": "false",
+       "timestamp": "1"}},
+    {"edge": {
+        "id": "2",
+        "source": "2",
+        "target": "3",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "3",
+        "source": "3",
+        "target": "4",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "4",
+        "source": "4",
+        "target": "5",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "5",
+        "source": "5",
+        "target": "6",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "6",
+        "source": "6",
+        "target": "1",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"
+    }},
+    {"edge": {
+        "id": "7",
+        "source": "1",
+        "target": "7",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"
+    }},
+    {"edge": {
+        "id": "8",
+        "source": "7",
+        "target": "3",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"
+    }},
+
+    {"edge": {
+        "id": "9",
+        "source": "8",
+        "target": "9",
+        "attributes": {"label": "A"},
+        "directed": "false",
+        "timestamp": "1"}},
+     {"edge": {
+         "id": "10",
+         "source": "9",
+         "target": "10",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"}},
+     {"edge": {
+         "id": "11",
+         "source": "10",
+         "target": "11",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"}},
+     {"edge": {
+         "id": "12",
+         "source": "11",
+         "target": "12",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"}},
+     {"edge": {
+         "id": "13",
+         "source": "12",
+         "target": "13",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"}},
+     {"edge": {
+         "id": "14",
+         "source": "13",
+         "target": "8",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"
+     }},
+     {"edge": {
+         "id": "15",
+         "source": "8",
+         "target": "14",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"
+     }},
+     {"edge": {
+         "id": "16",
+         "source": "14",
+         "target": "11",
+         "attributes": {"label": "A"},
+         "directed": "false",
+         "timestamp": "1"
+     }}
+  ]
+  
