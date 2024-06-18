@@ -1,0 +1,70 @@
+[
+    {"vertex": {
+       "id": "1",
+       "attributes": {"label": "v1"},
+       "timestamp": "1"}},
+    {"vertex": {
+       "id": "2",
+       "attributes": {"label": "v1"},
+       "timestamp": "1"}},
+    {"vertex": {
+       "id": "3",
+       "attributes": {"label": "v1"},
+       "timestamp": "1"}},
+    {"vertex": {
+        "id": "4",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "5",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"vertex": {
+        "id": "6",
+        "attributes": {"label": "v1"},
+        "timestamp": "1"}},
+    {"edge": {
+       "id": "1",
+       "source": "1",
+       "target": "2",
+       "attributes": {"label": "A"},
+       "directed": "true",
+       "timestamp": "1"}},
+    {"edge": {
+        "id": "2",
+        "source": "2",
+        "target": "3",
+        "attributes": {"label": "A"},
+        "directed": "true",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "3",
+        "source": "3",
+        "target": "1",
+        "attributes": {"label": "A"},
+        "directed": "true",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "4",
+        "source": "4",
+        "target": "5",
+        "attributes": {"label": "A"},
+        "directed": "true",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "5",
+        "source": "5",
+        "target": "6",
+        "attributes": {"label": "A"},
+        "directed": "true",
+        "timestamp": "1"}},
+    {"edge": {
+        "id": "6",
+        "source": "4",
+        "target": "6",
+        "attributes": {"label": "A"},
+        "directed": "true",
+        "timestamp": "1"
+    }}
+  ]
+  

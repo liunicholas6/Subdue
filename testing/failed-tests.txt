@@ -1,0 +1,2 @@
+python3 src/Subdue.py --limit 4 --numbest 1 testing/tris.json
+python3 src/Subdue.py --limit 26 --minsize 8  testing/hexes.json
